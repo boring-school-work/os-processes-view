@@ -1,0 +1,45 @@
+davesaah    2490       1  2 22:55 ?        00:00:00 /usr/lib/systemd/systemd --user
+davesaah    2498    2490  0 22:55 ?        00:00:00 (sd-pam)
+davesaah    2519       1  0 22:55 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+davesaah    2557    2477  0 22:55 tty2     00:00:00 /usr/libexec/gdm-wayland-session --register-session sway
+davesaah    2562    2490  0 22:55 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+davesaah    2567    2562  0 22:55 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 43f4fa0ee51b41d4960783a3a1febae6 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+davesaah    2572    2557  4 22:55 tty2     00:00:00 sway
+davesaah    2635       1  0 22:55 tty2     00:00:00 swaybg -o HDMI-A-1 -i /home/davesaah/Pictures/wallpapers/art/fedora-black-4k.png -m fill -o eDP-1 -i /home/davesaah/Pictures/wallpapers/art/fedora-black-4k.png -m fill
+davesaah    2732       1  3 22:55 tty2     00:00:00 waybar -b bar-0
+davesaah    2734       1  1 22:55 ?        00:00:00 /usr/libexec/polkit-gnome-authentication-agent-1
+davesaah    2736       1  1 22:55 ?        00:00:00 swaync
+davesaah    2742       1  0 22:55 ?        00:00:00 sh -c tail -f $SWAYSOCK.wob | wob --border-color '#ffdcbb8c' --background-color '#cc3a3a3a' --bar-color '#ffdcbb8c'
+davesaah    2744       1  1 22:55 ?        00:00:00 python3 /usr/local/bin/autotiling
+davesaah    2745    2742  0 22:55 ?        00:00:00 tail -f /run/user/1000/sway-ipc.1000.2572.sock.wob
+davesaah    2748       1  0 22:55 ?        00:00:00 /bin/sh /home/davesaah/.config/sway/scripts/light.sh
+davesaah    2753    2748  0 22:55 ?        00:00:00 wlsunset -l 7.95 -L 1.02
+davesaah    2766       1  0 22:55 ?        00:00:00 swayidle -w timeout 600 swaylock -f -C ~/.config/swaylock/config timeout 900 swaymsg "output * dpms off" resume swaymsg "output * dpms on" before-sleep swaylock -C ~/.config/swaylock/config
+davesaah    2775       1  2 22:55 ?        00:00:00 /usr/bin/python3 /usr/libexec/sway-systemd/assign-cgroups.py
+davesaah    2783       1  0 22:55 ?        00:00:00 /usr/bin/sh /usr/libexec/sway-systemd/session.sh
+davesaah    2798    2490  0 22:55 ?        00:00:00 /usr/libexec/dconf-service
+davesaah    2819    2490  0 22:55 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+davesaah    2840    2819  0 22:55 ?        00:00:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+davesaah    2841    2840  0 22:55 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id 43f4fa0ee51b41d4960783a3a1febae6 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+davesaah    2842    2490  0 22:55 ?        00:00:00 /usr/libexec/uresourced --user
+davesaah    2844    2490  0 22:55 ?        00:00:00 /usr/libexec/gvfsd
+davesaah    2853    2490  0 22:55 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+davesaah    2863    2783  0 22:55 ?        00:00:00 swaymsg -t subscribe ["shutdown"]
+davesaah    2865    2490  0 22:55 ?        00:00:00 /usr/bin/pipewire
+davesaah    2868    2490  1 22:55 ?        00:00:00 /usr/bin/wireplumber
+davesaah    2880    2490  0 22:55 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+davesaah    2884    2490  0 22:55 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+davesaah    2892    2490  0 22:55 ?        00:00:00 /usr/libexec/xdg-document-portal
+davesaah    2899    2490  0 22:55 ?        00:00:00 /usr/libexec/xdg-permission-store
+davesaah    2918    2490  1 22:55 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+davesaah    2926    2490  0 22:55 ?        00:00:00 /usr/libexec/xdg-desktop-portal-wlr
+davesaah    2930    2490  0 22:55 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+davesaah    2939    2732  0 22:55 tty2     00:00:00 sh -c $HOME/.config/waybar/mediaplayer/mediaplayer 2> /dev/null
+davesaah    2941    2939  0 22:55 tty2     00:00:00 /home/davesaah/.config/waybar/mediaplayer/mediaplayer
+davesaah    2952    2490  0 22:55 ?        00:00:00 /usr/bin/pipewire-pulse
+davesaah    2959    2941  0 22:55 tty2     00:00:00 playerctl status --follow
+davesaah    2974       1  4 22:55 ?        00:00:00 kitty
+davesaah    2985    2974  3 22:55 pts/0    00:00:00 /usr/bin/zsh
+davesaah    3078    2985  0 22:55 pts/0    00:00:00 bash ./fprocess.sh create 1
+davesaah    3081    3078  0 22:55 pts/0    00:00:00 ps -ef
+davesaah    3082    3078  0 22:55 pts/0    00:00:00 grep ^davesaah

@@ -1,0 +1,46 @@
+davesaah    2479       1 /usr/lib/systemd/systemd --user
+davesaah    2487    2479 (sd-pam)
+davesaah    2525       1 /usr/bin/gnome-keyring-daemon --daemonize --login
+davesaah    2544    2439 /usr/libexec/gdm-wayland-session --register-session sway
+davesaah    2547    2479 /usr/bin/dbus-broker-launch --scope user
+davesaah    2551    2547 dbus-broker --log 4 --controller 10 --machine-id 43f4fa0ee51b41d4960783a3a1febae6 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+davesaah    2556    2544 sway
+davesaah    2618       1 swaybg -o HDMI-A-1 -i /home/davesaah/Pictures/wallpapers/art/fedora-black-4k.png -m fill -o eDP-1 -i /home/davesaah/Pictures/wallpapers/art/fedora-black-4k.png -m fill
+davesaah    2703       1 waybar -b bar-0
+davesaah    2705       1 /usr/libexec/polkit-gnome-authentication-agent-1
+davesaah    2707       1 swaync
+davesaah    2713       1 sh -c tail -f $SWAYSOCK.wob | wob --border-color '#ffdcbb8c' --background-color '#cc3a3a3a' --bar-color '#ffdcbb8c'
+davesaah    2715    2713 tail -f /run/user/1000/sway-ipc.1000.2556.sock.wob
+davesaah    2717       1 python3 /usr/local/bin/autotiling
+davesaah    2719       1 /bin/sh /home/davesaah/.config/sway/scripts/light.sh
+davesaah    2727    2719 wlsunset -l 7.95 -L 1.02
+davesaah    2742       1 swayidle -w timeout 600 swaylock -f -C ~/.config/swaylock/config timeout 900 swaymsg "output * dpms off" resume swaymsg "output * dpms on" before-sleep swaylock -C ~/.config/swaylock/config
+davesaah    2746       1 /usr/bin/python3 /usr/libexec/sway-systemd/assign-cgroups.py
+davesaah    2751       1 /usr/bin/sh /usr/libexec/sway-systemd/session.sh
+davesaah    2769       1 Xwayland :0 -rootless -core -terminate 10 -listenfd 30 -listenfd 32 -displayfd 67 -wm 64
+davesaah    2770    2479 /usr/libexec/dconf-service
+davesaah    2791    2479 /usr/libexec/at-spi-bus-launcher
+davesaah    2802    2479 /usr/libexec/uresourced --user
+davesaah    2808    2791 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+davesaah    2813    2808 dbus-broker --log 4 --controller 9 --machine-id 43f4fa0ee51b41d4960783a3a1febae6 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+davesaah    2817    2479 /usr/libexec/gvfsd
+davesaah    2823    2479 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+davesaah    2834    2479 /usr/bin/pipewire
+davesaah    2836    2751 swaymsg -t subscribe ["shutdown"]
+davesaah    2838    2479 /usr/bin/wireplumber
+davesaah    2851    2479 /usr/libexec/xdg-desktop-portal
+davesaah    2852    2479 /usr/libexec/at-spi2-registryd --use-gnome-session
+davesaah    2863    2479 /usr/libexec/xdg-document-portal
+davesaah    2873    2479 /usr/libexec/xdg-permission-store
+davesaah    2889    2479 /usr/libexec/xdg-desktop-portal-gtk
+davesaah    2897    2479 /usr/libexec/xdg-desktop-portal-wlr
+davesaah    2901    2479 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+davesaah    2910    2703 sh -c $HOME/.config/waybar/mediaplayer/mediaplayer 2> /dev/null
+davesaah    2912    2910 /home/davesaah/.config/waybar/mediaplayer/mediaplayer
+davesaah    2921    2479 /usr/bin/pipewire-pulse
+davesaah    2930    2912 playerctl status --follow
+davesaah    2950       1 kitty
+davesaah    2956    2950 /usr/bin/zsh
+davesaah    3028    2956 bash ./fprocess.sh create 2
+davesaah    3031    3028 ps -eo user,pid,ppid,cmd
+davesaah    3032    3028 grep ^davesaah

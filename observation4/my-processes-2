@@ -1,0 +1,125 @@
+davesaah /app/extra/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/davesaah/.var/app/com.google.Chrome/config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Freedesktop SDK 23.08 (Flatpak runtime) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=130.0.6723.58 --initial-client-fd=10 --shared-client-connection
+davesaah /app/extra/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/davesaah/.var/app/com.google.Chrome/config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Freedesktop SDK 23.08 (Flatpak runtime) --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=130.0.6723.58 --initial-client-fd=4 --shared-client-connection
+davesaah /app/extra/chrome --disable-features=WebAssemblyTrapHandler,DesktopPWAsRunOnOsLogin
+davesaah /app/extra/chrome --type=gpu-process --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,14512458330736802158,18172990180358407723,262144 --disable-features=DesktopPWAsRunOnOsLogin,EyeDropper,WebAssemblyTrapHandler --variations-seed-version=20241017-180126.025000
+davesaah /app/extra/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=none --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14512458330736802158,18172990180358407723,262144 --disable-features=DesktopPWAsRunOnOsLogin,EyeDropper,WebAssemblyTrapHandler --variations-seed-version=20241017-180126.025000
+davesaah /app/extra/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14512458330736802158,18172990180358407723,262144 --disable-features=DesktopPWAsRunOnOsLogin,EyeDropper,WebAssemblyTrapHandler --variations-seed-version=20241017-180126.025000
+davesaah /app/extra/chrome --type=zygote --no-zygote-sandbox --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /app/obsidian
+davesaah /app/obsidian --type=gpu-process --enable-crash-reporter=b0c4d58c-54d1-4f46-b821-bde185b0baed,no_channel --user-data-dir=/home/davesaah/.var/app/md.obsidian.Obsidian/config/obsidian --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,10222619441604489529,13548200516836843537,262144 --enable-features=SharedArrayBuffer,kWebSQLAccess --disable-features=SpareRendererForSitePerProcess --variations-seed-version
+davesaah /app/obsidian --type=renderer --enable-crash-reporter=b0c4d58c-54d1-4f46-b821-bde185b0baed,no_channel --user-data-dir=/home/davesaah/.var/app/md.obsidian.Obsidian/config/obsidian --standard-schemes=app --secure-schemes=app --fetch-schemes=app --streaming-schemes=app --code-cache-schemes=app --app-path=/app/resources/app.asar --no-sandbox --no-zygote --node-integration-in-worker --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1729261593817451 --launch-time-ticks=38610483 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10222619441604489529,13548200516836843537,262144 --enable-features=SharedArrayBuffer,kWebSQLAccess --disable-features=SpareRendererForSitePerProcess --variations-seed-version
+davesaah /app/obsidian --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --enable-crash-reporter=b0c4d58c-54d1-4f46-b821-bde185b0baed,no_channel --user-data-dir=/home/davesaah/.var/app/md.obsidian.Obsidian/config/obsidian --standard-schemes=app --secure-schemes=app --fetch-schemes=app --streaming-schemes=app --code-cache-schemes=app --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10222619441604489529,13548200516836843537,262144 --enable-features=SharedArrayBuffer,kWebSQLAccess --disable-features=SpareRendererForSitePerProcess --variations-seed-version
+davesaah /app/obsidian --type=zygote
+davesaah /app/obsidian --type=zygote --no-zygote-sandbox
+davesaah bash ./fprocess.sh create 2
+davesaah /bin/sh /app/bin/obsidian.sh
+davesaah /bin/sh /home/davesaah/.config/sway/scripts/light.sh
+davesaah cat
+davesaah cat
+davesaah cat
+davesaah cat
+davesaah dbus-broker --log 4 --controller 10 --machine-id 43f4fa0ee51b41d4960783a3a1febae6 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+davesaah dbus-broker --log 4 --controller 9 --machine-id 43f4fa0ee51b41d4960783a3a1febae6 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+davesaah grep ^davesaah
+davesaah /home/davesaah/.config/waybar/mediaplayer/mediaplayer
+davesaah kitty
+davesaah kitty -e jupyter-notebook
+davesaah /opt/zoom/zoom
+davesaah /opt/zoom/ZoomWebviewHost
+davesaah /opt/zoom/ZoomWebviewHost --type=gpu-process --disable-seccomp-filter-sandbox --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --lang=en-US --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --bridge-obj-name=CefViewClient --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --use-gl=angle --use-angle=swiftshader-webgl --log-file=/home/davesaah/.zoom/logs/cef.log --shared-files --field-trial-handle=0,i,6244305676310012141,11504976789975827052,262144 --disable-features=NetworkService --variations-seed-version
+davesaah /opt/zoom/ZoomWebviewHost --type=renderer --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --bridge-obj-name=CefViewSidebarEventCard --disable-seccomp-filter-sandbox --force-gpu-mem-available-mb=4096 --log-file=/home/davesaah/.zoom/logs/cef.log --disable-gpu-compositing --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1729261593817451 --launch-time-ticks=507445044 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6244305676310012141,11504976789975827052,262144 --disable-features=NetworkService --variations-seed-version
+davesaah /opt/zoom/ZoomWebviewHost --type=renderer --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --bridge-obj-name=CefViewSidebarRecording --disable-seccomp-filter-sandbox --force-gpu-mem-available-mb=4096 --log-file=/home/davesaah/.zoom/logs/cef.log --disable-gpu-compositing --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1729261593817451 --launch-time-ticks=507774023 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6244305676310012141,11504976789975827052,262144 --disable-features=NetworkService --variations-seed-version
+davesaah /opt/zoom/ZoomWebviewHost --type=renderer --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --bridge-obj-name=CefViewSidebarRecording --disable-seccomp-filter-sandbox --force-gpu-mem-available-mb=4096 --log-file=/home/davesaah/.zoom/logs/cef.log --disable-gpu-compositing --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1729261593817451 --launch-time-ticks=507514263 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6244305676310012141,11504976789975827052,262144 --disable-features=NetworkService --variations-seed-version
+davesaah /opt/zoom/ZoomWebviewHost --type=renderer --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --bridge-obj-name=CefViewSidebarRecording --disable-seccomp-filter-sandbox --force-gpu-mem-available-mb=4096 --log-file=/home/davesaah/.zoom/logs/cef.log --disable-gpu-compositing --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9 --time-ticks-at-unix-epoch=-1729261593817451 --launch-time-ticks=507520414 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6244305676310012141,11504976789975827052,262144 --disable-features=NetworkService --variations-seed-version
+davesaah /opt/zoom/ZoomWebviewHost --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --lang=en-US --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --bridge-obj-name=CefViewClient --log-file=/home/davesaah/.zoom/logs/cef.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6244305676310012141,11504976789975827052,262144 --disable-features=NetworkService --variations-seed-version
+davesaah /opt/zoom/ZoomWebviewHost --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=utility --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --lang=en-US --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --bridge-obj-name=CefViewSidebarEventCard --log-file=/home/davesaah/.zoom/logs/cef.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6244305676310012141,11504976789975827052,262144 --disable-features=NetworkService --variations-seed-version
+davesaah /opt/zoom/ZoomWebviewHost --type=zygote --disable-seccomp-filter-sandbox --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --lang=en-US --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --log-file=/home/davesaah/.zoom/logs/cef.log --bridge-obj-name=CefViewClient
+davesaah /opt/zoom/ZoomWebviewHost --type=zygote --disable-seccomp-filter-sandbox --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --lang=en-US --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --log-file=/home/davesaah/.zoom/logs/cef.log --bridge-obj-name=CefViewClient
+davesaah /opt/zoom/ZoomWebviewHost --type=zygote --no-zygote-sandbox --disable-seccomp-filter-sandbox --locales-dir-path=/opt/zoom/cef/locales --log-severity=error --resources-dir-path=/opt/zoom/cef --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.129 Safari/537.36 Zoom/6.1.1 (443) --lang=en-US --user-data-dir=/home/davesaah/.zoom/data/cefcache/6429 --log-file=/home/davesaah/.zoom/logs/cef.log --bridge-obj-name=CefViewClient
+davesaah p11-kit-remote --provider p11-kit-trust.so pkcs11:model=p11-kit-trust?write-protected=yes
+davesaah p11-kit-remote --provider p11-kit-trust.so pkcs11:model=p11-kit-trust?write-protected=yes
+davesaah playerctl status --follow
+davesaah ps -eo user,cmd --sort=cmd
+davesaah python3 /usr/local/bin/autotiling
+davesaah (sd-pam)
+davesaah server --sh -n /run/user/1000/.flatpak-helper/pkcs11-flatpak-3353 --provider p11-kit-trust.so pkcs11:model=p11-kit-trust?write-protected=yes
+davesaah sh -c $HOME/.config/waybar/mediaplayer/mediaplayer 2> /dev/null
+davesaah sh -c tail -f $SWAYSOCK.wob | wob --border-color '#ffdcbb8c' --background-color '#cc3a3a3a' --bar-color '#ffdcbb8c'
+davesaah sway
+davesaah swaybg -o HDMI-A-1 -i /home/davesaah/Pictures/wallpapers/art/fedora-black-4k.png -m fill -o eDP-1 -i /home/davesaah/Pictures/wallpapers/art/fedora-black-4k.png -m fill
+davesaah swayidle -w timeout 600 swaylock -f -C ~/.config/swaylock/config timeout 900 swaymsg "output * dpms off" resume swaymsg "output * dpms on" before-sleep swaylock -C ~/.config/swaylock/config
+davesaah swaymsg -t subscribe ["shutdown"]
+davesaah swaync
+davesaah tail -f /run/user/1000/sway-ipc.1000.2686.sock.wob
+davesaah /usr/bin/bwrap --args 42 -- /app/bin/chrome
+davesaah /usr/bin/bwrap --args 42 -- /app/bin/chrome
+davesaah /usr/bin/bwrap --args 42 -- obsidian.sh
+davesaah /usr/bin/bwrap --args 42 -- obsidian.sh
+davesaah /usr/bin/bwrap --args 42 -- /usr/bin/xdg-dbus-proxy --args=44
+davesaah /usr/bin/bwrap --args 42 -- /usr/bin/xdg-dbus-proxy --args=44
+davesaah /usr/bin/bwrap --args 43 -- /app/bin/zypak-helper child - /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /usr/bin/bwrap --args 43 -- /app/bin/zypak-helper child - /app/extra/chrome --type=zygote --string-annotations --crashpad-handler-pid=17 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+davesaah /usr/bin/bwrap --args 43 -- /app/bin/zypak-helper child - /app/obsidian --type=zygote
+davesaah /usr/bin/bwrap --args 43 -- /app/bin/zypak-helper child - /app/obsidian --type=zygote
+davesaah /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+davesaah /usr/bin/dbus-broker-launch --scope user
+davesaah /usr/bin/gnome-keyring-daemon --daemonize --login
+davesaah /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+davesaah /usr/bin/pipewire
+davesaah /usr/bin/pipewire-pulse
+davesaah /usr/bin/python3 /home/davesaah/.local/bin/jupyter-notebook
+davesaah /usr/bin/python3 /usr/libexec/sway-systemd/assign-cgroups.py
+davesaah /usr/bin/sh /usr/libexec/sway-systemd/session.sh
+davesaah /usr/bin/wireplumber
+davesaah /usr/bin/xdg-dbus-proxy --args=44
+davesaah /usr/bin/xdg-dbus-proxy --args=44
+davesaah /usr/bin/zoom
+davesaah /usr/bin/zsh
+davesaah /usr/lib64/firefox/firefox
+davesaah /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsLen 38378 -prefMapSize 259191 -jsInitLen 234840 -parentBuildID 20241015120057 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {0899ce86-fa25-41c5-a68b-9810aafb1e24} 3959 true 6 tab
+davesaah /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsLen 38378 -prefMapSize 259191 -jsInitLen 234840 -parentBuildID 20241015120057 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {0e0a7798-6423-4205-a2f9-2d574937d9ec} 3959 true 7 tab
+davesaah /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsLen 38378 -prefMapSize 259191 -jsInitLen 234840 -parentBuildID 20241015120057 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {183c9ece-dc2a-4608-ac90-58e44ce1ffb2} 3959 true 5 tab
+davesaah /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsLen 38527 -prefMapSize 259191 -jsInitLen 234840 -parentBuildID 20241015120057 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {de421f91-0cf7-42c0-936a-16f7b800d830} 3959 true 2 tab
+davesaah /usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsLen 38603 -prefMapSize 259191 -jsInitLen 234840 -parentBuildID 20241015120057 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser {1a2fdfa0-b3cf-43df-95f4-e28b727f9296} 3959 true 3 tab
+davesaah /usr/lib64/firefox/firefox -contentproc -parentBuildID 20241015120057 -prefsLen 38462 -prefMapSize 259191 -appDir /usr/lib64/firefox/browser {b0f7a8da-6bd7-40d5-9062-b479ecaacd35} 3959 true 1 socket
+davesaah /usr/lib64/firefox/firefox -contentproc -parentBuildID 20241015120057 -sandboxingKind 0 -prefsLen 45219 -prefMapSize 259191 -appDir /usr/lib64/firefox/browser {ddd16561-39b5-41e5-af47-789b49032ed8} 3959 true 4 utility
+davesaah /usr/libexec/at-spi2-registryd --use-gnome-session
+davesaah /usr/libexec/at-spi-bus-launcher
+davesaah /usr/libexec/dconf-service
+davesaah /usr/libexec/flatpak-portal
+davesaah /usr/libexec/flatpak-session-helper
+davesaah /usr/libexec/gdm-wayland-session --register-session sway
+davesaah /usr/libexec/gvfsd
+davesaah /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+davesaah /usr/libexec/polkit-gnome-authentication-agent-1
+davesaah /usr/libexec/uresourced --user
+davesaah /usr/libexec/xdg-desktop-portal
+davesaah /usr/libexec/xdg-desktop-portal-gtk
+davesaah /usr/libexec/xdg-desktop-portal-wlr
+davesaah /usr/libexec/xdg-document-portal
+davesaah /usr/libexec/xdg-permission-store
+davesaah /usr/lib/systemd/systemd --user
+davesaah waybar -b bar-0
+davesaah wlsunset -l 7.95 -L 1.02
+davesaah [xdg-open] <defunct>
+davesaah Xwayland :0 -rootless -core -terminate 10 -listenfd 30 -listenfd 32 -displayfd 115 -wm 66
+davesaah [zypak-sandbox] <defunct>
+davesaah [zypak-sandbox] <defunct>
